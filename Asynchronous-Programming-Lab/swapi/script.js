@@ -1,5 +1,3 @@
-document.getElementById('load-character').addEventListener('click', loadCharacter);
-
 function loadCharacter() {
     let baseUrl = 'https://swapi.dev/api';
 
@@ -31,3 +29,4 @@ function oldLoadCharacter() {
     });
 }
 
+document.getElementById('load-character').addEventListener('click', loadCharacter);
