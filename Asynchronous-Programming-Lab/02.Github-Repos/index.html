@@ -26,7 +26,7 @@
                     let link = $("<a>");
                     link.text(repo.full_name);
                     link.attr('href', repo.html_url);
-                    let li=$("<li>").append(link);
+                    let li = $("<li>").append(link);
                     $("#repos").append(li)
                 }
 
@@ -37,7 +37,6 @@
         function displayError() {
             $('<li>').text('Error').appendTo($('#repos'));
         }
-
 
 
     }
